@@ -4,8 +4,20 @@
         flex-direction: column;
     }
 
-    button {
+    .botao {
         margin-bottom: 10px;
         width: 300px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .filme-principal {
+        background-position: 0px -85px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .filme-principal {
+        background-position: 0px -115px;
     }
 }
